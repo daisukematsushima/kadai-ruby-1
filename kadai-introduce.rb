@@ -1,5 +1,5 @@
 myoji = '田中'
 namae = '太郎'
-nenrei = '25'
+num = 25
 
-puts myoji + namae + "です。" + nenrei + "歳です。"
+puts myoji + namae + "です。" + num.to_s + "歳です。"
